@@ -1,0 +1,33 @@
+.work {
+    overflow: hidden;
+    margin-top: 100px;
+    .work__text {
+        text-align: center;
+        h2 {
+            font-size: 34px;
+            font-weight: 400;
+            margin-bottom: 23px;
+        }
+        p {
+            color: #A0A0A0;
+            font-size: 16px;
+            font-weight: 400;
+             margin-bottom: 23px;
+        }
+        .work__image {
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .work {
+        .work__text {
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}

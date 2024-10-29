@@ -1,0 +1,108 @@
+.hero {
+    background: url(../assets/hero.png);
+    width: 100%;
+    height: 504px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .hero__text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        h2 {
+            color: #FFFFFF;
+            font-size: 43px;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+        p {
+            color: #FFFFFF;
+            font-size: 15px;
+            font-weight: 400;
+            margin-bottom: 28px;
+        }
+        a {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-size: 13px;
+            font-weight: 400;
+        }
+    }
+}
+@media (max-width: 899px) {
+    .hero {
+        .hero__text {
+            h2 {
+                font-size: 38px;
+            }
+            p {
+                font-size: 13px;
+            }
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 794px) {
+    .hero {
+        .hero__text {
+            h2 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 13px;
+            }
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 413px) {
+    .hero {
+        .hero__text {
+            h2 {
+                font-size: 38px;
+            }
+            p {
+                font-size: 13px;
+            }
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 353px) {
+    .hero {
+        .hero__text {
+            h2 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 14px;
+            }
+            a {
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media (max-width: 318px) {
+    .hero {
+        .hero__text {
+            h2 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 13px;
+            }
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}

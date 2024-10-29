@@ -1,0 +1,28 @@
+.navbar {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navbar__collection {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        height: 75px;
+        text-transform: uppercase;
+    }
+    .navbar__menu {
+        display: none;
+    }
+}
+@media (max-width: 486px) {
+    .navbar {
+        height: 75px;
+        .navbar__collection {
+            display: none;
+        }
+        .navbar__menu {
+            font-size: 18px;
+            display: block;
+        }
+    }
+}
